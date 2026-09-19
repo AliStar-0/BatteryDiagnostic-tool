@@ -16,7 +16,6 @@ Originally built to check a car's 12 V battery, it now also handles LiPo packs, 
 - **Color-coded status**: red at ≤ 20 %, cyan in the middle, green at ≥ 80 %
 - **Flicker-free rendering** using an off-screen `TFT_eSprite` buffer
 - **5 battery modes**, switchable wirelessly over Bluetooth Serial
-- **Sci-fi HUD styling**: background grid, cyber borders, corner accents, and a developer-console style header
 - **Fatal-error screen** if the INA226 isn't detected on boot
 
 ---
@@ -46,12 +45,12 @@ The battery being measured connects to the INA226's **VBUS** and **GND** pins. T
 
 ## Software Requirements
 
-- [Arduino IDE](https://www.arduino.cc/en/software) or [PlatformIO](https://platformio.org/)
-- ESP32 board support package
-- Libraries:
-  - [`TFT_eSPI`](https://github.com/Bodmer/TFT_eSPI)
-  - [`INA226`](https://github.com/RobTillaart/INA226) (Rob Tillaart)
-  - `Wire` and `BluetoothSerial` (included with the ESP32 core)
+Arduino IDE or PlatformIO
+ESP32 board support package
+Libraries:
+TFT_eSPI
+INA226 (Rob Tillaart)
+Wire and BluetoothSerial (included with the ESP32 core))
 
 ### TFT_eSPI configuration
 
@@ -132,20 +131,5 @@ You can tune these values in the `switch (currentMode)` block in `loop()` to mat
 
 ---
 
-## Project Structure
 
-```
-.
-├── src/ (or .ino)   # Main sketch
-└── README.md
-```
 
----
-
-## Contributing
-
-Issues and pull requests are welcome. If you build your own version, feel free to share photos!
-
-## License
-
-Add your license here (e.g., MIT).
