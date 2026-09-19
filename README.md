@@ -1,4 +1,4 @@
-# Corolla HUD — Sci-Fi Battery Diagnostic Tool
+## BatteryDiagnostic-tool
 
 A pocket-sized battery voltage tester built on an **ESP32**, an **INA226** power monitor, and a **320×240 TFT display**, wrapped in a cyberpunk/HUD-style interface. Switch between battery types over **Bluetooth** and get a live voltage readout, estimated charge percentage, and a segmented power bar.
 
