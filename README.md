@@ -60,15 +60,11 @@ Wire and BluetoothSerial (included with the ESP32 core))
 
 ## Getting Started
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   ```
-2. **Install the libraries** listed above.
-3. **Configure `TFT_eSPI`** for your display.
-4. **Select your ESP32 board** and COM port.
-5. **Upload the sketch.**
-6. Power up. You'll see the boot screen, then the HUD in `SYS.CAR_12V` mode.
+1. **Install the libraries** listed above.
+2. **Configure `TFT_eSPI`** for your display.
+3. **Select your ESP32 board** and COM port.
+4. **Upload the sketch.**
+5. Power up. You'll see the boot screen, then the HUD in `SYS.CAR_12V` mode.
 
 ---
 
