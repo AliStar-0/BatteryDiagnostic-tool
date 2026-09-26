@@ -119,10 +119,10 @@ You can tune these values in the `switch (currentMode)` block in `loop()` to mat
 
 ## Ideas for Future Improvements
 
-- Show current (A) and power (W) using the INA226 shunt readings
+- Show current (A) and power (W) using the INA226 shunt readings (Feature added)
 - Add NiMH / Li-ion 1S / LiFePO4 modes
 - Add a physical button for mode switching
-- Non-linear discharge curves for more accurate percentages
+- Non-linear discharge curves for more accurate percentages (Feature added)
 - Voltage logging over Bluetooth
 
 ---
