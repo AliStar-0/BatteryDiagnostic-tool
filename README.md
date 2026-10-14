@@ -124,7 +124,7 @@ You can tune these values in the `switch (currentMode)` block in `loop()` to mat
 - Add a physical button for mode switching
 - Non-linear discharge curves for more accurate percentages (Feature added)
 - Voltage logging over Bluetooth
-
+- make a simple case for the electrical components
 ---
 
 
